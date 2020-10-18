@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.333800,
+                    47.672640
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "cat_id": "01",
+                "real_name": "Tuxedo",
+                "code_name": "Tux",
+                "description": "Common house cat.",
+                "friendliness": "VERY (unless hungry)",
+                "rarity": "COMMON"
+            }
+        }
+    ]
+}
