@@ -2,11 +2,12 @@ function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById('map'), {
     zoom: 17,
-    center: {lat: 47.672640, lng: -122.333800}
+//    center: {lat: 47.672640, lng: -122.333800}
+    center: {lat: 47.679391, lng: -122.341380}
   });
 
-  // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
+  // Load the cats GeoJSON onto the map.
+  map.data.loadGeoJson('cats.json', {idPropertyName: 'storeid'});
 
   const infoWindow = new google.maps.InfoWindow();
 
