@@ -14,7 +14,7 @@
                 "code_name": "Tux",
                 "description": "Common house cat.",
                 "friendliness": "VERY (unless hungry)",
-                "rarity": "COMMON"
+                "rarity": "low"
             }
         }
     ]
