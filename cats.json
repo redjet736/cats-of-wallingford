@@ -1,9 +1,10 @@
 {
     "type": "FeatureCollection",
-    "features": [{
+    "features": [
+        {
             "geometry": {
                 "type": "Point",
-                "coordinates": [-122.341380,
+                "coordinates": [-122.341480,
                     47.679391
                 ]
             },
@@ -12,9 +13,100 @@
                 "cat_id": "01",
                 "real_name": "Tuxedo",
                 "code_name": "Tux",
-                "description": "Common house cat.",
+                "description": "Common house cat (black).",
                 "friendliness": "VERY (unless hungry)",
-                "rarity": "low"
+                "rarity": "v common",
+                "img": "tux.png"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.341200,
+                    47.679380
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "cat_id": "02",
+                "real_name": "Toby",
+                "code_name": "Tobes",
+                "description": "Common house cat (gray).",
+                "friendliness": "Usually",
+                "rarity": "common",
+                "img": "tobes.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.3281974,
+                    47.6728727
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "cat_id": "03",
+                "real_name": "Unknown",
+                "code_name": "Cow Cat",
+                "description": "Looks kinda like a spotted cow!",
+                "friendliness": "VERY (and will follow you for up to several blocks)",
+                "rarity": "common",
+                "img": "cow_cat.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.3346622,
+                    47.6712106
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "cat_id": "04",
+                "real_name": "Unknown",
+                "code_name": "Flame's Cousin",
+                "description": "Fluffy with a squeaky meow.",
+                "friendliness": "VERY",
+                "rarity": "not super common",
+                "img": "flame_cousin.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.333437,
+                    47.6693393
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "cat_id": "05",
+                "real_name": "Unknown",
+                "code_name": "Lioness",
+                "description": "Likes sitting on top of fences.",
+                "friendliness": "Moderately",
+                "rarity": "uncommon",
+                "img": "lioness.jpg"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.329809,
+                    47.6678526
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "cat_id": "06",
+                "real_name": "Unknown",
+                "code_name": "Mohawk",
+                "description": "His fur makes him look like he's got a rad mohawk.",
+                "friendliness": "Somewhat",
+                "rarity": "uncommon",
+                "img": "mohawk.jpg"
             }
         }
     ]

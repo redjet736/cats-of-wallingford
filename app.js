@@ -17,12 +17,13 @@ function initMap() {
     const real_name = event.feature.getProperty('real_name');
     const description = event.feature.getProperty('description');
     const friendliness = event.feature.getProperty('friendliness');
+    const img = event.feature.getProperty('img');
     const rarity = event.feature.getProperty('rarity');
     const position = event.feature.getGeometry().get();
     const content = `
       <h2>${code_name}</h2><p>${description}</p>
       <p><b>Real Name:</b> ${real_name}<br/><b>Friendliness:</b> ${friendliness}<br/><b>Rarity:</b> ${rarity}</p>
-      <p><img src="tux.png" width="200px"</p>
+      <p><img src="${img}" width="200px"</p>
     `;
 
     infoWindow.setContent(content);
