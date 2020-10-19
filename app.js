@@ -1,9 +1,8 @@
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 17,
-//    center: {lat: 47.672640, lng: -122.333800}
-    center: {lat: 47.679391, lng: -122.341380}
+    zoom: 15,
+    center: {lat: 47.6712106, lng: -122.3346622}
   });
 
   // Load the cats GeoJSON onto the map.
